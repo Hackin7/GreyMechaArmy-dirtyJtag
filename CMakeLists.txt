@@ -37,7 +37,8 @@ if (EXISTS ${picoVscode})
     include(${picoVscode})
 endif()
 # ====================================================================================
-set(PICO_BOARD pico CACHE STRING "Board type")
+#set(PICO_BOARD pico CACHE STRING "Board type")
+set(PICO_PLATFORM rp2350)
 
 # Generated Cmake Pico project file
 
